@@ -55,7 +55,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Klient.xaml.cs">
+      <DependentUpon>Klient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rabotyaga.xaml.cs">
+      <DependentUpon>Rabotyaga.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Zakaz.xaml.cs">
+      <DependentUpon>Zakaz.xaml</DependentUpon>
+    </Compile>
     <Page Include="Admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Klient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -74,6 +87,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Rabotyaga.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Zakaz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -103,6 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="195210-avtomoyka-24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="3a0f747c22908280376649c073ccb95f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1663670321_49-mykaleidoscope-ru-p-zloi-stalker-pinterest-49.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

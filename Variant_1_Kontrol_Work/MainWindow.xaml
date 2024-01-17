@@ -15,6 +15,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="379,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"><Run FontSize="15" Text="Введите "/><Run FontSize="15" Language="ru-ru" Text="Пароль"/></TextBlock>
         <Image Margin="23,104,468,71" Source="/195210-avtomoyka-24.jpg" Stretch="Fill" />
         <Button  HorizontalAlignment="Left" Margin="724,7,0,0" VerticalAlignment="Top" Background="Black" FontSize="15" Content="Выйти"  Foreground="Aquamarine" Height="32" Width="56" Click="Button_Click_1"/>
+        <Button  HorizontalAlignment="Left" Margin="23,381,0,0" VerticalAlignment="Top" Background="Black" FontSize="15" Content="Работник"  Foreground="Aquamarine" Height="28" Width="73" Click="Button_Click_9"/>
+        <Button  HorizontalAlignment="Left" Margin="104,381,0,0" VerticalAlignment="Top" Background="Black" FontSize="15" Content="Клиент"  Foreground="Aquamarine" Height="28" Width="74" Click="Button_Click_11"/>
 
     </Grid>
 </Window>

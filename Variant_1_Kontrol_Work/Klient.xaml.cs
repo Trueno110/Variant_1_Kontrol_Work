@@ -15,38 +15,25 @@ using System.Windows.Shapes;
 namespace Variant_1_Kontrol_Work
 {
     /// <summary>
-    /// Логика взаимодействия для Admin.xaml
+    /// Логика взаимодействия для Klient.xaml
     /// </summary>
-    public partial class Admin : Window
+    public partial class Klient : Window
     {
-        public Admin()
+        public Klient()
         {
             InitializeComponent();
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
+        private void Button_Click_12(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_7(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
+            Zakaz zakaz = new Zakaz();
+            zakaz.Show();
             this.Close();
+        }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
@@ -56,9 +43,9 @@ namespace Variant_1_Kontrol_Work
             this.Close();
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }

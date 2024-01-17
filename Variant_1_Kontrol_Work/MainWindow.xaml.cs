@@ -34,7 +34,23 @@ namespace Variant_1_Kontrol_Work
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+           Admin adm = new Admin();
+        adm.Show();
+        this.Close();
+        }
 
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            Rabotyaga rabotyaga = new Rabotyaga();  
+            rabotyaga.Show();
+            this.Close();
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            Klient klient = new Klient();
+            klient.Show();
+            this.Close();
         }
     }
 }

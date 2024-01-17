@@ -15,38 +15,38 @@ using System.Windows.Shapes;
 namespace Variant_1_Kontrol_Work
 {
     /// <summary>
-    /// Логика взаимодействия для Admin.xaml
+    /// Логика взаимодействия для Rabotyaga.xaml
     /// </summary>
-    public partial class Admin : Window
+    public partial class Rabotyaga : Window
     {
-        public Admin()
+        public Rabotyaga()
         {
             InitializeComponent();
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_7(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_10(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
+        {
+
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
@@ -54,11 +54,6 @@ namespace Variant_1_Kontrol_Work
             MainWindow main = new MainWindow();
             main.Show();
             this.Close();
-        }
-
-        private void Button_Click_6(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
