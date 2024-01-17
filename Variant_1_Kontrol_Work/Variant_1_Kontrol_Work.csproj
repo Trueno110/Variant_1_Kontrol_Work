@@ -55,16 +55,40 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Archive.xaml.cs">
+      <DependentUpon>Archive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Account.xaml.cs">
+      <DependentUpon>Delete_Account.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dovolen.xaml.cs">
+      <DependentUpon>Dovolen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Klient.xaml.cs">
       <DependentUpon>Klient.xaml</DependentUpon>
     </Compile>
     <Compile Include="Rabotyaga.xaml.cs">
       <DependentUpon>Rabotyaga.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ucetnaya_zapic.xaml.cs">
+      <DependentUpon>Ucetnaya_zapic.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Zakaz.xaml.cs">
       <DependentUpon>Zakaz.xaml</DependentUpon>
     </Compile>
     <Page Include="Admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Archive.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Delete_Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dovolen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -88,6 +112,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Rabotyaga.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ucetnaya_zapic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="1663670321_49-mykaleidoscope-ru-p-zloi-stalker-pinterest-49.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1648387715_3-kartinkof-club-p-mem-dovolnoe-litso-3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

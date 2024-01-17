@@ -8,15 +8,22 @@
         Title="Klient" Height="450" Width="800">
     <Grid Background="DarkCyan">
         <TextBlock HorizontalAlignment="Left" Margin="23,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289"><Run Foreground="Black" FontSize="25" FontWeight="Black" Language="ru-ru" Text="Активные заказы:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="40,68,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" Text="Заказ №1032" />
-        <TextBox HorizontalAlignment="Left" Margin="40,91,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" Text="Заказ №1035" />
-        <TextBox HorizontalAlignment="Left" Margin="40,114,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" Text="Заказ №1040" />
-        <TextBox HorizontalAlignment="Left" Margin="40,137,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" Text="Заказ №1028" />
-        <Button  HorizontalAlignment="Left" Margin="712,10,0,0" VerticalAlignment="Top" Background="White" FontSize="15" Content="Вернуться"  Foreground="DarkCyan" Height="32" Width="78" Click="Button_Click_8"/>
-        <Button  HorizontalAlignment="Left" Margin="734,392,0,0" VerticalAlignment="Top" Background="White" FontSize="15" Content="Выйти"  Foreground="DarkCyan" Height="32" Width="56" Click="Button_Click_1"/>
-        <Button  HorizontalAlignment="Left" Margin="287,114,0,0" VerticalAlignment="Top" Background="White" FontSize="25" Content="Оформить новый заказ"  Foreground="Black" Height="41" Width="288" Click="Button_Click_12"/>
-        <Button  HorizontalAlignment="Left" Margin="335,229,0,0" VerticalAlignment="Top" Background="White" FontSize="25" Content="Найти заказ"  Foreground="Black" Height="41" Width="192" Click="Button_Click_13"/>
-        <Image Margin="19,229,488,26" Source="/1663670321_49-mykaleidoscope-ru-p-zloi-stalker-pinterest-49.jpg" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Margin="38,57,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1032" />
+        <TextBox HorizontalAlignment="Left" Margin="38,94,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1035" />
+        <TextBox HorizontalAlignment="Left" Margin="38,131,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1040" />
+        <TextBox HorizontalAlignment="Left" Margin="38,165,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1028" />
+        <Button  HorizontalAlignment="Left" Margin="701,17,0,0" VerticalAlignment="Top" Background="White" FontSize="15" Content="Вернуться"  Foreground="DarkCyan" Height="32" Width="78" Click="Button_Click_8"/>
+        <Button  HorizontalAlignment="Left" Margin="723,383,0,0" VerticalAlignment="Top" Background="White" FontSize="15" Content="Выйти"  Foreground="DarkCyan" Height="32" Width="56" Click="Button_Click_1"/>
+        <Button  HorizontalAlignment="Left" Margin="322,106,0,0" VerticalAlignment="Top" Background="White" FontSize="25" Content="Оформить новый заказ"  Foreground="Black" Height="41" Width="288" Click="Button_Click_12"/>
+        <Button  HorizontalAlignment="Left" Margin="370,221,0,0" VerticalAlignment="Top" Background="White" FontSize="25" Content="Найти заказ"  Foreground="Black" Height="41" Width="192" Click="Button_Click_13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289"><Run Foreground="Black" FontSize="25" FontWeight="Black" Language="ru-ru" Text="Завершенные заказы:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="38,267,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1033" />
+        <TextBox HorizontalAlignment="Left" Margin="38,301,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1034" />
+        <TextBox HorizontalAlignment="Left" Margin="38,335,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1029" />
+        <TextBox HorizontalAlignment="Left" Margin="38,369,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1031" />
+        <TextBox HorizontalAlignment="Left" Margin="225,301,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1036" />
+        <TextBox HorizontalAlignment="Left" Margin="225,335,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1037" />
+        <TextBox HorizontalAlignment="Left" Margin="225,369,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" FontSize="20" Width="175" Text="Заказ №1030" />
 
     </Grid>
 </Window>

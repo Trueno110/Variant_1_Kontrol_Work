@@ -26,12 +26,14 @@ namespace Variant_1_Kontrol_Work
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-
+            Ucetnaya_zapic zapic = new Ucetnaya_zapic();
+            zapic.Show();
+            this.Close();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -41,7 +43,9 @@ namespace Variant_1_Kontrol_Work
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-
+            Delete_Account account = new Delete_Account();
+            account.Show();
+            this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -56,9 +60,6 @@ namespace Variant_1_Kontrol_Work
             this.Close();
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
     }
 }

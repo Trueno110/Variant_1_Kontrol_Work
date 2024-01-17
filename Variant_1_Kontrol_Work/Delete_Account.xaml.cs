@@ -15,38 +15,31 @@ using System.Windows.Shapes;
 namespace Variant_1_Kontrol_Work
 {
     /// <summary>
-    /// Логика взаимодействия для Klient.xaml
+    /// Логика взаимодействия для Delete_Account.xaml
     /// </summary>
-    public partial class Klient : Window
+    public partial class Delete_Account : Window
     {
-        public Klient()
+        public Delete_Account()
         {
             InitializeComponent();
         }
 
-        private void Button_Click_12(object sender, RoutedEventArgs e)
+        private void Button_Click_15(object sender, RoutedEventArgs e)
         {
-            Zakaz zakaz = new Zakaz();
-            zakaz.Show();
-            this.Close();
-        }
-
-        private void Button_Click_13(object sender, RoutedEventArgs e)
-        {
-            Archive archive = new Archive();
-            archive.Show();
-            this.Close();
-        }
-
-        private void Button_Click_8(object sender, RoutedEventArgs e)
-        {
-            MainWindow main = new MainWindow();
-            main.Show();
+            Dovolen dovolen = new Dovolen();
+            dovolen.Show();
             this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            Admin admin = new Admin(); 
+            admin.Show();
             this.Close();
         }
     }
